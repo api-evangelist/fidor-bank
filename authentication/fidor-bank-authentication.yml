@@ -1,0 +1,30 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/fidor/fidor_api
+docs: https://github.com/fidor/fidor_api#readme
+notes: >-
+  No OpenAPI/Swagger spec is retrievable (the Stoplight-hosted docs at
+  api-docs.fidor.de and api-docs.sandbox.fidor.com are offline and fidor.com is a
+  parked domain), so this profile is searched from the official Ruby client's
+  documentation rather than derived from a spec. The Fidor REST API used OAuth2
+  with the authorization-code flow; bearer access tokens were then presented to
+  the API.
+summary:
+  types: [oauth2]
+  oauth2_flows: [authorizationCode]
+schemes:
+  - name: OAuth2
+    type: oauth2
+    flow: authorizationCode
+    token_type: bearer
+    environments:
+      - name: sandbox
+        host_pattern: '*.sandbox.fidor.com'
+      - name: production
+        host_pattern: '*.fidor.de'
+    sources: [https://github.com/fidor/fidor_api]
+    description: >-
+      OAuth2 authorization-code flow. The official Ruby client exposes
+      authorize_start / authorize_complete helpers to obtain an access token
+      that is then used as a bearer token against the classic transfer, account
+      and transaction APIs.
