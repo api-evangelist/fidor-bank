@@ -1,0 +1,36 @@
+generated: '2026-07-19'
+method: searched
+source: https://en.wikipedia.org/wiki/Fidor_Bank
+notes: >-
+  Fidor Bank is a retired provider. Founded in Munich in 2009 as an early
+  Banking-as-a-Service / open-banking pioneer (fidorOS / bankOS), acquired by
+  Groupe BPCE in 2016, it ceased business operations in mid-2023 and entered
+  liquidation. The developer portal (fidor.com) is now a parked GoDaddy for-sale
+  domain; the sandbox and production API hosts (*.sandbox.fidor.com, *.fidor.de,
+  api-docs.fidor.de) no longer resolve or present a valid certificate. No live
+  status page, SLA, deprecation policy, or versioning policy survives, so no
+  StatusPage or Deprecation canonical pointer is emitted.
+status: retired
+lifecycle:
+  founded: '2009'
+  acquired_by: Groupe BPCE
+  acquired: '2016'
+  operations_ceased: '2023'
+  disposition: liquidation
+  sdk_repository_archived: '2023-06-05'
+status_page: null
+sla: null
+deprecation:
+  policy_url: null
+  sunset_header: null
+versioning:
+  scheme: uri-path
+  historical_current: v1
+  docs: null
+evidence:
+  - source: https://en.wikipedia.org/wiki/Fidor_Bank
+    fact: Fidor Bank ceased business operations in 2023 and is being liquidated.
+  - source: https://github.com/fidor/fidor_api
+    fact: Official Ruby client repository archived (read-only) 2023-06-05.
+  - source: https://www.fidor.com/
+    fact: fidor.com now redirects to a GoDaddy parked / for-sale page (HTTP 307).

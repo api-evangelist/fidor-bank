@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: searched
+source: https://rubygems.org/gems/fidor_api
+notes: >-
+  Fidor Bank ceased operations in 2023 and its developer portal / API hosts are
+  offline. The one surviving first-party client library is the official Ruby gem
+  published by Fidor Solutions AG. Its GitHub repository was archived (read-only)
+  on 2023-06-05. Captured verbatim from the public registry; no other first-party
+  packages (npm, PyPI, Maven, NuGet, Go, Packagist, crates.io) were found.
+packages:
+  - language: ruby
+    registry: rubygems
+    name: fidor_api
+    url: https://rubygems.org/gems/fidor_api
+    source: https://github.com/fidor/fidor_api
+    install: gem install fidor_api
+    latest_version: 2.1.4
+    released: '2021-05-05'
+    total_downloads: 60187
+    license: MIT
+    official: true
+    status: archived
+    archived: '2023-06-05'
+    description: >-
+      Official Ruby client for the Fidor Bank REST API. Supports the OAuth2
+      authorization-code flow and the classic transfer APIs; fetches user data
+      and transactions and creates internal transfers against the Fidor Germany
+      sandbox (*.sandbox.fidor.com) and production (*.fidor.de) environments.
