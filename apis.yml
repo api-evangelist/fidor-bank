@@ -67,6 +67,11 @@ apis:
   - type: Authentication
     url: authentication/fidor-bank-authentication.yml
 common:
+- type: IssueTracker
+  url: https://github.com/fidor/fidor_api/issues
+- type: License
+  name: MIT
+  url: https://github.com/fidor/fidor_api/blob/master/LICENSE
 - type: GitHubOrganization
   url: https://github.com/fidor
 - type: Packages
