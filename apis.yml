@@ -25,18 +25,15 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fidor-bank.png
 name: Fidor Bank
-description: >-
-  Fidor Bank was a German digital challenger bank founded in Munich in 2009 and an
-  early pioneer of Banking-as-a-Service and open banking through its fidorOS /
-  bankOS middleware platform and public REST API, which covered Customers,
-  Accounts, Transfers, Transactions and Account Information over an OAuth2
-  authorization-code flow. Fidor was acquired by France's Groupe BPCE in 2016;
-  following years of post-acquisition integration struggles the bank ceased
-  business operations in mid-2023 and entered liquidation. Its developer portal
-  (fidor.com) is now a parked domain and the sandbox and production API hosts are
-  offline. The surviving first-party developer artifacts are the archived official
-  Ruby client (RubyGems: fidor_api, by Fidor Solutions AG) and the github.com/fidor
-  organization. This is a retired provider retained for historical reference.
+description: 'Fidor Bank was a German digital challenger bank founded in Munich in 2009 and an early pioneer
+  of Banking-as-a-Service and open banking through its fidorOS / bankOS middleware platform and public
+  REST API, which covered Customers, Accounts, Transfers, Transactions and Account Information over an
+  OAuth2 authorization-code flow. Fidor was acquired by France''s Groupe BPCE in 2016; following years
+  of post-acquisition integration struggles the bank ceased business operations in mid-2023 and entered
+  liquidation. Its developer portal (fidor.com) is now a parked domain and the sandbox and production
+  API hosts are offline. The surviving first-party developer artifacts are the archived official Ruby
+  client (RubyGems: fidor_api, by Fidor Solutions AG) and the github.com/fidor organization. This is a
+  retired provider retained for historical reference.'
 url: https://raw.githubusercontent.com/api-evangelist/fidor-bank/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -47,7 +44,7 @@ x-tier-reason: portfolio-lead
 x-status: retired
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-09-16'
 tags:
 - Company
 - Fintech
@@ -60,12 +57,10 @@ tags:
 - Retired
 apis:
 - name: Fidor Germany Banking API
-  description: >-
-    Fidor's REST API for Customers, Accounts, Transfers, Transactions and Account
-    Information, secured with OAuth2 (authorization-code flow). Now retired: the
-    sandbox (*.sandbox.fidor.com) and production (*.fidor.de) hosts and the
-    Stoplight-hosted documentation are offline. The archived official Ruby client
-    is the best surviving reference.
+  description: 'Fidor''s REST API for Customers, Accounts, Transfers, Transactions and Account Information,
+    secured with OAuth2 (authorization-code flow). Now retired: the sandbox (*.sandbox.fidor.com) and
+    production (*.fidor.de) hosts and the Stoplight-hosted documentation are offline. The archived official
+    Ruby client is the best surviving reference.'
   humanURL: https://github.com/fidor/fidor_api
   baseURL: https://api.fidor.de
   x-status: retired
@@ -79,6 +74,8 @@ apis:
   - type: Authentication
     url: authentication/fidor-bank-authentication.yml
 common:
+- type: Website
+  url: https://fidor.de
 - type: IssueTracker
   url: https://github.com/fidor/fidor_api/issues
 - type: License
