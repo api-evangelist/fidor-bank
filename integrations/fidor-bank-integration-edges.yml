@@ -1,16 +1,53 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/fidor-bank/integrations
 - https://n8n.io/integrations/fidor-bank/
 - https://composio.dev/toolkits/fidor-bank
 - https://monid.ai/tools/fidor-bank
 checked:
+- https://api.nuget.org/v3
 - https://composio.dev/toolkits/fidor-bank
+- https://crates.io/api/v1
 - https://monid.ai/tools/fidor-bank
 - https://n8n.io/integrations/fidor-bank/
+- https://proxy.golang.org
+- https://pypi.org/pypi
+- https://registry.npmjs.org
+- https://repo1.maven.org/maven2
+- https://rubygems.org/api/v1
 - https://zapier.com/apps/fidor-bank/integrations
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: RubyGems
+  partner: rubygems
+  partner_match: register
+  type: register
+  direction: provider-built
+  category: official SDK (Ruby)
+  evidence: https://rubygems.org/gems/fidor_api
+  channel: package-registry
+  relationship: distribution-channel
+  contract_reference:
+    register: RubyGems (public registry JSON)
+    spec_file: null
+    language: Ruby
+    packages:
+    - name: fidor_api
+      version: 2.1.4
+      released: '2021-05-05'
+      released_field: version_created_at
+      lapsed: true
+      page: https://rubygems.org/gems/fidor_api
+      repo_leg: github-org:fidor
+      publisher_leg: org:fidor
+      matched_by: github-org
+    current: false
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  detected_by: sweep-official-sdks.py
+  first_seen: '2026-10-18'
 templates: []
