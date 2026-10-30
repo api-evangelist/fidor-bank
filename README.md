@@ -64,6 +64,51 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Fidor Bank is a company surfaced as a portfolio company of anthemis and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: anthemis
+**Status:** retired
+
+Fidor Bank was a German digital challenger bank founded in Munich in 2009 and an early pioneer of Banking-as-a-Service and open banking through its fidorOS / bankOS middleware platform and public REST API, which covered Customers, Accounts, Transfers, Transactions and Account Information over an OAuth2 authorization-code flow. Fidor was acquired by France's Groupe BPCE in 2016; following years of post-acquisition integration struggles the bank ceased business operations in mid-2023 and entered liquidation. Its developer portal (fidor.com) is now a parked domain and the sandbox and production API hosts are offline. The surviving first-party developer artifacts are the archived official Ruby client (RubyGems: fidor_api, by Fidor Solutions AG) and the github.com/fidor organization. This is a retired provider retained for historical reference.
+
+**Areas:** Company · Fintech · Banking · Banking as a Service · Open Banking · Digital Bank · Neobank · Germany · Retired
+
+## Fidor Bank on APIs.io (historical record)
+
+Everything profiled for Fidor Bank is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fidor-bank/](https://apis.io/providers/fidor-bank/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Fidor Germany Banking API](https://apis.io/apis/fidor-bank/fidor-germany-banking-api/) — Fidor's REST API for Customers, Accounts, Transfers, Transactions and Account Information, secured with OAuth2 (authorization-code flow). Now retired: the…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fidor Bank Authentication](https://apis.io/security/fidor-bank/fidor-bank-authentication/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fidor.de)
+- [GitHub](https://github.com/fidor)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Fidor Bank: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fidor-bank/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
